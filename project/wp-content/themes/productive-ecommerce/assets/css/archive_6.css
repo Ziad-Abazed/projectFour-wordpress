@@ -1,0 +1,62 @@
+@media (min-width: 768px) {
+	/* 5 products per column */
+	.woocommerce ul.products li.product,
+	.productive_ecommerce_section ul.products li.product,
+	.woocommerce-page ul.products li.product,
+
+	.woocommerce.columns-6 ul.products li.product,
+	.woocommerce ul.products.columns-6 li.product,
+	.woocommerce-page ul.products.columns-6 li.product,
+	.woocommerce-page.columns-6 ul.products li.product,
+	.wc-block-grid.has-2-columns .wc-block-grid__product,
+	.wc-block-grid.has-3-columns .wc-block-grid__product,
+	.wc-block-grid.has-4-columns .wc-block-grid__product,
+	.wc-block-grid.has-5-columns .wc-block-grid__product,
+	.wc-block-grid.has-6-columns .wc-block-grid__product,
+	.wc-block-grid.has-7-columns .wc-block-grid__product,
+	.wc-block-grid ul.wc-block-grid__products li.wc-block-grid__product {
+
+		width: 15%;
+
+	}
+
+	.productive_ecommerce_widget_container_home .wc-block-grid ul.wc-block-grid__products li.wc-block-grid__product {
+		max-width: 15%;
+	}
+
+	.woocommerce ul.products.columns-6 li.product:nth-child(6n),
+	.woocommerce.columns-6 ul.products li.product:nth-child(6n),
+	.productive_ecommerce_section.columns-6 ul.products li.product:nth-child(6n),
+	.wc-block-grid ul.wc-block-grid__products li.wc-block-grid__product:nth-child(6n) {
+		margin-right: 0;
+	}
+
+	.homepage_content_widget_highlights .wc-block-grid ul.wc-block-grid__products li.wc-block-grid__product:nth-child(6n) {
+		margin-right: 2%;
+	}
+
+	.productive_ecommerce_section .products-grid.columns-6 div.product:nth-child(6n+1) .the_search_item {
+		padding: 0 7% 0 0;
+	}
+
+	.productive_ecommerce_section .products-grid.columns-6 div.product:nth-child(6n+2) .the_search_item {
+		padding: 0 5% 0 2%;
+	}
+
+	.productive_ecommerce_section .products-grid.columns-6 div.product:nth-child(6n+3) .the_search_item {
+		padding: 0 4% 0 3%;
+	}
+
+	.productive_ecommerce_section .products-grid.columns-6 div.product:nth-child(6n+4) .the_search_item {
+		padding: 0 3% 0 4%;
+	}
+
+	.productive_ecommerce_section .products-grid.columns-6 div.product:nth-child(6n+5) .the_search_item {
+		padding: 0 2% 0 5%;
+	}
+
+	.productive_ecommerce_section .products-grid.columns-6 div.product:nth-child(6n) .the_search_item {
+		padding: 0 0 0 7%;
+	}
+
+}

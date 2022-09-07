@@ -1,0 +1,357 @@
+# Copyright (C) 2022 by ProductiveMinds Publishing & Learning
+# This file is distributed under the GNU General Public License v2 or later
+msgid ""
+msgstr ""
+"Project-Id-Version: productive-ecommerce 1.0.0.1\n"
+"Report-Msgid-Bugs-To: https://www.productiveminds.com\n"
+"POT-Creation-Date: 2022-03-13 00:00+0000\n"
+"PO-Revision-Date: 2022-03-13 09:34+0000\n"
+"Last-Translator: \n"
+"Language-Team: productiveminds.com\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+
+#: wp-content/themes/productive-ecommerce/function.php:32
+msgid "Skip to content"
+msgstr "Skip to content"
+
+
+#: wp-content/themes/productive-ecommerce/function.php:44
+msgid "Homepage Hero"
+msgstr "Homepage Hero"
+
+
+#: wp-content/themes/productive-ecommerce/function.php:55
+msgid "Homepage Content Top"
+msgstr ""
+
+
+#: wp-content/themes/productive-ecommerce/function.php:66
+msgid "Homepage Content Bottom"
+msgstr "Homepage Content Bottom"
+
+
+#: wp-content/themes/productive-ecommerce/function.php:77
+msgid "Left Sidebar"
+msgstr "Left Sidebar"
+
+#: wp-content/themes/productive-ecommerce/function.php:11
+msgid "Right Sidebar"
+msgstr "Right Sidebar"
+
+
+#: wp-content/themes/productive-ecommerce/function.php:99
+msgid "Footer Right"
+msgstr "Footer Right"
+
+
+#: wp-content/themes/productive-ecommerce/function.php:110
+msgid "Header Callout"
+msgstr "Header Callout"
+
+
+#: wp-content/themes/productive-ecommerce/function.php:135
+msgid "Footer Menu"
+msgstr "Footer Menu"
+
+
+#: wp-content/themes/productive-ecommerce/function.php:431
+msgid "Info"
+msgstr "Info"
+
+
+#: wp-content/themes/productive-ecommerce/404.php:26
+#: wp-content/themes/productive-ecommerce/header.php:117
+#: wp-content/themes/productive-ecommerce/searchform.php:13
+msgid "Search..."
+msgstr "Search..."
+
+
+#: wp-content/themes/productive-ecommerce/comments.php:24
+msgid "Leave a comment"
+msgstr "Leave a comment"
+
+
+#: wp-content/themes/productive-ecommerce/comments.php:26
+msgid "Comments on "
+msgstr "Comments on "
+
+
+#: wp-content/themes/productive-ecommerce/comments.php:84
+msgid "Comments are closed"
+msgstr "Comments are closed"
+
+
+#: wp-content/themes/productive-ecommerce/template-parts/page-part-none.php:9
+msgid "Nothing to display"
+msgstr "Nothing to display"
+
+
+#: wp-content/themes/productive-ecommerce/404.php:16
+msgid "Page Not Found"
+msgstr "Page Not Found"
+
+
+#: wp-content/themes/productive-ecommerce/404.php:18
+msgid "We did not find the page you were looking for."
+msgstr "We did not find the page you were looking for."
+
+
+#: wp-content/themes/productive-ecommerce/404.php:20
+msgid "Homepage"
+msgstr "Homepage"
+
+
+#: wp-content/themes/productive-ecommerce/search.php:55
+msgid "Search result for: "
+msgstr "Search result for: "
+
+
+#: wp-content/themes/productive-ecommerce/search.php:64
+msgid " matches found for your search..."
+msgstr " matches found for your search..."
+
+
+#: wp-content/themes/productive-ecommerce/search.php:66
+msgid " match found for your search..."
+msgstr " match found for your search..."
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:37
+msgid "Theme Options"
+msgstr "Theme Options"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:38
+msgid "Customisable theme options"
+msgstr "Customisable theme options"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:47
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:48
+msgid "Get Pro Version"
+msgstr "Get Pro Version"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:58
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:59
+msgid "Header Options"
+msgstr "Header Options"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:70
+msgid "Footer Options"
+msgstr "Footer Options"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:71
+msgid "Footer options"
+msgstr "Footer options"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:82
+msgid "Homepage Options"
+msgstr "Homepage Options"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:83
+msgid "Homepage options"
+msgstr "Homepage options"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:94
+msgid "Layout Options"
+msgstr "Layout Options"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:95
+msgid "Layout options"
+msgstr "Layout options"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:106
+msgid "Archive Page(s) Options"
+msgstr "Archive Page(s) Options"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:107
+msgid "Archive page(s) options"
+msgstr "Archive page(s) options"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:134
+msgid "Enable Header Search?"
+msgstr "Enable Header Search?"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:135
+msgid "Enable search box in the header"
+msgstr "Enable search box in the header"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:160
+msgid "Number of posts/pages per row"
+msgstr "Number of posts/pages per row"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:161
+msgid "3 or more for best result"
+msgstr "3 or more for best result"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:187
+msgid "Placeholder image"
+msgstr "Placeholder image"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:188
+msgid "An image that shows as thumbnail if a post does not have one"
+msgstr "An image that shows as thumbnail if a post does not have one"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:215
+msgid "Homepage baackground image"
+msgstr "Homepage baackground image"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:216
+msgid "The main background image in the homepage"
+msgstr "The main background image in the homepage"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:241
+msgid "Scroll background image?"
+msgstr "Scroll background image?"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:242
+msgid "Image scrolls or behaves fixed as in parallax effect."
+msgstr "Image scrolls or behaves fixed as in parallax effect."
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:267
+msgid "Show Homepage Posts?"
+msgstr "Show Homepage Posts?"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:268
+msgid "Show latest blog posts in homepage"
+msgstr "Show latest blog posts in homepage"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:293
+msgid "Homepage text 1 (above search box)"
+msgstr "Homepage text 1 (above search box)"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:294
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:320
+msgid "Leave empty for blank"
+msgstr "Leave empty for blank"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:319
+msgid "Homepage text 2 (below search box)"
+msgstr "Homepage text 2 (below search box)"
+
+
+#: wp-content/themes/productive-ecommerce/function.php:640
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:331
+msgid "A WordPress theme by "
+msgstr "A WordPress theme by "
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:346
+msgid "Pro only feature"
+msgstr "Pro only feature"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:347
+msgid "Get Pro here"
+msgstr "Get Pro here"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:347
+msgid " to remove or change the Copyright text"
+msgstr " to remove or change the Copyright text"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:359
+msgid "Footer copyright content"
+msgstr "Footer copyright content"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:360
+msgid "Leave blank for no copyright info"
+msgstr "Leave blank for no copyright info"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:386
+msgid "Layout options for templates"
+msgstr "Layout options for templates"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:389
+msgid "One Column"
+msgstr "One Column"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:390
+msgid "Two Column Left Sidebar"
+msgstr "Two Column Left Sidebar"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:391
+msgid "Two Column Right Sidebar"
+msgstr "Two Column Right Sidebar"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:392
+msgid "Three columns"
+msgstr "Three columns"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:417
+msgid "Small screen left sidebar header"
+msgstr "Small screen left sidebar header"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:418
+msgid "Text to display on small screens left sidebar header"
+msgstr "Text to display on small screens left sidebar header"
+
+
+#: wp-content/themes/productive-ecommerce/template-parts/index/index-part-loop.php:21
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:431
+msgid "Latest Blog"
+msgstr "Latest Blog"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:446
+msgid "Homepage Blog Heading"
+msgstr "Homepage Blog Heading"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:447
+msgid "Homepage blog excerpts heading"
+msgstr "Homepage blog excerpts heading"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:456
+msgid "Get more features with PRO"
+msgstr "Get more features with PRO"
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:459
+msgid "PRO Version Features..."
+msgstr "PRO Version Features..."
+
+
+#: wp-content/themes/productive-ecommerce/classes/class-promindsone-theme-customiser.php:462
+msgid "See a Live Demo"
+msgstr "See a Live Demo"

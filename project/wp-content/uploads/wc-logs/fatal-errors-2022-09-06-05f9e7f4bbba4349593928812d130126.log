@@ -1,0 +1,705 @@
+2022-09-06T21:34:45+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-ajax-layout.php(851): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-ajax-layout.php(55): FLBuilderAJAXLayout::render_assets()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-ajax.php(235): FLBuilderAJAXLayout::render()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-ajax.php(42): FLBuilderAJAX::call_action()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilderAJAX::run()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(524): WP_Hook->do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp.php(787): do_action_ref_array()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\functions.php(1330): WP->main()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(16): wp()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#13 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T21:34:57+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-ajax-layout.php(851): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-ajax-layout.php(55): FLBuilderAJAXLayout::render_assets()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-model.php(4096): FLBuilderAJAXLayout::render()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-ajax.php(235): FLBuilderModel::save_settings()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-ajax.php(42): FLBuilderAJAX::call_action()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilderAJAX::run()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(524): WP_Hook->do_action()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp.php(787): do_action_ref_array()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\functions.php(1330): WP->main()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(16): wp()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#14 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T21:35:22+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-ajax-layout.php(851): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-ajax-layout.php(55): FLBuilderAJAXLayout::render_assets()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-ajax.php(235): FLBuilderAJAXLayout::render()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-ajax.php(42): FLBuilderAJAX::call_action()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilderAJAX::run()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(524): WP_Hook->do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp.php(787): do_action_ref_array()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\functions.php(1330): WP->main()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(16): wp()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#13 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T21:36:01+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(738): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(656): FLBuilder::enqueue_layout_cached_asset()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(565): FLBuilder::enqueue_layout_styles_scripts()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilder::enqueue_all_layouts_styles_scripts()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\script-loader.php(2156): do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(3042): do_action()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\header.php(26): wp_head()
+#14 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(770): require_once('...')
+#15 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(716): load_template()
+#16 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(48): locate_template()
+#17 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\page.php(20): get_header()
+#18 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template-loader.php(106): include('...')
+#19 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(19): require_once('...')
+#20 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#21 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T21:36:51+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(738): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(656): FLBuilder::enqueue_layout_cached_asset()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(565): FLBuilder::enqueue_layout_styles_scripts()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilder::enqueue_all_layouts_styles_scripts()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\script-loader.php(2156): do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(3042): do_action()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\header.php(26): wp_head()
+#14 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(770): require_once('...')
+#15 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(716): load_template()
+#16 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(48): locate_template()
+#17 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\page.php(20): get_header()
+#18 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template-loader.php(106): include('...')
+#19 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(19): require_once('...')
+#20 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#21 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T21:40:17+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(738): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(656): FLBuilder::enqueue_layout_cached_asset()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(565): FLBuilder::enqueue_layout_styles_scripts()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilder::enqueue_all_layouts_styles_scripts()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\script-loader.php(2156): do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(3042): do_action()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\header.php(26): wp_head()
+#14 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(770): require_once('...')
+#15 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(716): load_template()
+#16 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(48): locate_template()
+#17 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\page.php(20): get_header()
+#18 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template-loader.php(106): include('...')
+#19 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(19): require_once('...')
+#20 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#21 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T21:41:54+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(738): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(656): FLBuilder::enqueue_layout_cached_asset()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(565): FLBuilder::enqueue_layout_styles_scripts()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilder::enqueue_all_layouts_styles_scripts()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\script-loader.php(2156): do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(3042): do_action()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\header.php(26): wp_head()
+#14 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(770): require_once('...')
+#15 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(716): load_template()
+#16 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(48): locate_template()
+#17 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\page.php(20): get_header()
+#18 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template-loader.php(106): include('...')
+#19 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(19): require_once('...')
+#20 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#21 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T21:44:17+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(738): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(656): FLBuilder::enqueue_layout_cached_asset()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(565): FLBuilder::enqueue_layout_styles_scripts()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilder::enqueue_all_layouts_styles_scripts()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\script-loader.php(2156): do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(3042): do_action()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\header.php(26): wp_head()
+#14 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(770): require_once('...')
+#15 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(716): load_template()
+#16 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(48): locate_template()
+#17 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\page.php(20): get_header()
+#18 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template-loader.php(106): include('...')
+#19 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(19): require_once('...')
+#20 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#21 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T21:44:30+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(738): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(656): FLBuilder::enqueue_layout_cached_asset()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(565): FLBuilder::enqueue_layout_styles_scripts()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilder::enqueue_all_layouts_styles_scripts()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\script-loader.php(2156): do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(3042): do_action()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\header.php(26): wp_head()
+#14 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(770): require_once('...')
+#15 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(716): load_template()
+#16 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(48): locate_template()
+#17 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\page.php(20): get_header()
+#18 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template-loader.php(106): include('...')
+#19 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(19): require_once('...')
+#20 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#21 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T21:44:36+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(738): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(656): FLBuilder::enqueue_layout_cached_asset()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(565): FLBuilder::enqueue_layout_styles_scripts()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilder::enqueue_all_layouts_styles_scripts()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\script-loader.php(2156): do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(3042): do_action()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\header.php(26): wp_head()
+#14 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(770): require_once('...')
+#15 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(716): load_template()
+#16 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(48): locate_template()
+#17 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\page.php(20): get_header()
+#18 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template-loader.php(106): include('...')
+#19 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(19): require_once('...')
+#20 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#21 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T21:45:54+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(738): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(656): FLBuilder::enqueue_layout_cached_asset()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(565): FLBuilder::enqueue_layout_styles_scripts()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilder::enqueue_all_layouts_styles_scripts()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\script-loader.php(2156): do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(3042): do_action()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\header.php(26): wp_head()
+#14 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(770): require_once('...')
+#15 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(716): load_template()
+#16 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(48): locate_template()
+#17 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\page.php(20): get_header()
+#18 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template-loader.php(106): include('...')
+#19 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(19): require_once('...')
+#20 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#21 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T21:52:33+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(738): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(656): FLBuilder::enqueue_layout_cached_asset()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(565): FLBuilder::enqueue_layout_styles_scripts()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilder::enqueue_all_layouts_styles_scripts()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\script-loader.php(2156): do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(3042): do_action()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\header.php(26): wp_head()
+#14 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(770): require_once('...')
+#15 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(716): load_template()
+#16 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(48): locate_template()
+#17 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\page.php(20): get_header()
+#18 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template-loader.php(106): include('...')
+#19 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(19): require_once('...')
+#20 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#21 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T21:55:42+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(738): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(656): FLBuilder::enqueue_layout_cached_asset()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(565): FLBuilder::enqueue_layout_styles_scripts()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilder::enqueue_all_layouts_styles_scripts()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\script-loader.php(2156): do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(3042): do_action()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\header.php(26): wp_head()
+#14 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(770): require_once('...')
+#15 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(716): load_template()
+#16 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(48): locate_template()
+#17 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\page.php(20): get_header()
+#18 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template-loader.php(106): include('...')
+#19 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(19): require_once('...')
+#20 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#21 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T21:58:17+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(738): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(656): FLBuilder::enqueue_layout_cached_asset()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(565): FLBuilder::enqueue_layout_styles_scripts()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilder::enqueue_all_layouts_styles_scripts()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\script-loader.php(2156): do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(3042): do_action()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\header.php(26): wp_head()
+#14 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(770): require_once('...')
+#15 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(716): load_template()
+#16 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(48): locate_template()
+#17 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\page.php(20): get_header()
+#18 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template-loader.php(106): include('...')
+#19 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(19): require_once('...')
+#20 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#21 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T21:59:59+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(738): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(656): FLBuilder::enqueue_layout_cached_asset()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(565): FLBuilder::enqueue_layout_styles_scripts()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilder::enqueue_all_layouts_styles_scripts()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\script-loader.php(2156): do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(3042): do_action()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\header.php(26): wp_head()
+#14 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(770): require_once('...')
+#15 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(716): load_template()
+#16 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(48): locate_template()
+#17 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\page.php(20): get_header()
+#18 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template-loader.php(106): include('...')
+#19 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(19): require_once('...')
+#20 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#21 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T22:00:07+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(738): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(656): FLBuilder::enqueue_layout_cached_asset()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(565): FLBuilder::enqueue_layout_styles_scripts()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilder::enqueue_all_layouts_styles_scripts()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\script-loader.php(2156): do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(3042): do_action()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\header.php(26): wp_head()
+#14 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(770): require_once('...')
+#15 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(716): load_template()
+#16 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(48): locate_template()
+#17 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\page.php(20): get_header()
+#18 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template-loader.php(106): include('...')
+#19 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(19): require_once('...')
+#20 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#21 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T22:08:00+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(738): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(656): FLBuilder::enqueue_layout_cached_asset()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(565): FLBuilder::enqueue_layout_styles_scripts()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilder::enqueue_all_layouts_styles_scripts()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\script-loader.php(2156): do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(3042): do_action()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\header.php(26): wp_head()
+#14 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(770): require_once('...')
+#15 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(716): load_template()
+#16 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(48): locate_template()
+#17 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\page.php(20): get_header()
+#18 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template-loader.php(106): include('...')
+#19 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(19): require_once('...')
+#20 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#21 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T22:08:58+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(738): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(656): FLBuilder::enqueue_layout_cached_asset()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(565): FLBuilder::enqueue_layout_styles_scripts()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilder::enqueue_all_layouts_styles_scripts()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\script-loader.php(2156): do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(3042): do_action()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\header.php(26): wp_head()
+#14 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(770): require_once('...')
+#15 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(716): load_template()
+#16 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(48): locate_template()
+#17 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\page.php(20): get_header()
+#18 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template-loader.php(106): include('...')
+#19 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(19): require_once('...')
+#20 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#21 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T22:11:59+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(738): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(656): FLBuilder::enqueue_layout_cached_asset()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(565): FLBuilder::enqueue_layout_styles_scripts()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilder::enqueue_all_layouts_styles_scripts()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\script-loader.php(2156): do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(3042): do_action()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\header.php(26): wp_head()
+#14 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(770): require_once('...')
+#15 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(716): load_template()
+#16 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(48): locate_template()
+#17 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\page.php(20): get_header()
+#18 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template-loader.php(106): include('...')
+#19 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(19): require_once('...')
+#20 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#21 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T22:20:11+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(738): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(656): FLBuilder::enqueue_layout_cached_asset()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(565): FLBuilder::enqueue_layout_styles_scripts()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilder::enqueue_all_layouts_styles_scripts()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\script-loader.php(2156): do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(3042): do_action()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\header.php(26): wp_head()
+#14 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(770): require_once('...')
+#15 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(716): load_template()
+#16 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(48): locate_template()
+#17 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\page.php(20): get_header()
+#18 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template-loader.php(106): include('...')
+#19 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(19): require_once('...')
+#20 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#21 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T22:24:20+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(738): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(656): FLBuilder::enqueue_layout_cached_asset()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(565): FLBuilder::enqueue_layout_styles_scripts()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilder::enqueue_all_layouts_styles_scripts()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\script-loader.php(2156): do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(3042): do_action()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\header.php(26): wp_head()
+#14 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(770): require_once('...')
+#15 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(716): load_template()
+#16 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(48): locate_template()
+#17 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\page.php(20): get_header()
+#18 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template-loader.php(106): include('...')
+#19 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(19): require_once('...')
+#20 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#21 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T22:29:37+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(738): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(656): FLBuilder::enqueue_layout_cached_asset()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(565): FLBuilder::enqueue_layout_styles_scripts()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilder::enqueue_all_layouts_styles_scripts()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\script-loader.php(2156): do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(3042): do_action()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\header.php(26): wp_head()
+#14 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(770): require_once('...')
+#15 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(716): load_template()
+#16 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(48): locate_template()
+#17 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\page.php(20): get_header()
+#18 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template-loader.php(106): include('...')
+#19 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(19): require_once('...')
+#20 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#21 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T22:33:18+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(738): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(656): FLBuilder::enqueue_layout_cached_asset()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(565): FLBuilder::enqueue_layout_styles_scripts()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilder::enqueue_all_layouts_styles_scripts()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\script-loader.php(2156): do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(3042): do_action()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\header.php(26): wp_head()
+#14 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(770): require_once('...')
+#15 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(716): load_template()
+#16 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(48): locate_template()
+#17 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\page.php(20): get_header()
+#18 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template-loader.php(106): include('...')
+#19 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(19): require_once('...')
+#20 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#21 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T22:33:26+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(738): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(656): FLBuilder::enqueue_layout_cached_asset()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(565): FLBuilder::enqueue_layout_styles_scripts()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilder::enqueue_all_layouts_styles_scripts()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\script-loader.php(2156): do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(3042): do_action()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\header.php(26): wp_head()
+#14 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(770): require_once('...')
+#15 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(716): load_template()
+#16 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(48): locate_template()
+#17 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\page.php(20): get_header()
+#18 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template-loader.php(106): include('...')
+#19 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(19): require_once('...')
+#20 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#21 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T22:36:15+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(738): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(656): FLBuilder::enqueue_layout_cached_asset()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(565): FLBuilder::enqueue_layout_styles_scripts()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilder::enqueue_all_layouts_styles_scripts()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\script-loader.php(2156): do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(3042): do_action()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\header.php(26): wp_head()
+#14 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(770): require_once('...')
+#15 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(716): load_template()
+#16 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(48): locate_template()
+#17 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\page.php(20): get_header()
+#18 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template-loader.php(106): include('...')
+#19 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(19): require_once('...')
+#20 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#21 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T22:50:08+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(738): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(656): FLBuilder::enqueue_layout_cached_asset()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(565): FLBuilder::enqueue_layout_styles_scripts()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilder::enqueue_all_layouts_styles_scripts()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\script-loader.php(2156): do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(3042): do_action()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\header.php(26): wp_head()
+#14 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(770): require_once('...')
+#15 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(716): load_template()
+#16 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(48): locate_template()
+#17 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\page.php(20): get_header()
+#18 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template-loader.php(106): include('...')
+#19 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(19): require_once('...')
+#20 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#21 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T23:07:49+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(738): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(656): FLBuilder::enqueue_layout_cached_asset()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(565): FLBuilder::enqueue_layout_styles_scripts()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilder::enqueue_all_layouts_styles_scripts()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\script-loader.php(2156): do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(3042): do_action()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\header.php(26): wp_head()
+#14 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(770): require_once('...')
+#15 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(716): load_template()
+#16 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(48): locate_template()
+#17 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\page.php(20): get_header()
+#18 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template-loader.php(106): include('...')
+#19 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(19): require_once('...')
+#20 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#21 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+
+2022-09-06T23:21:27+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php:254
+Stack trace:
+#0 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.css.php(1): FLVideoModule->video_aspect_ratio()
+#1 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(3051): include('...')
+#2 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(738): FLBuilder::render_css()
+#3 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(656): FLBuilder::enqueue_layout_cached_asset()
+#4 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php(565): FLBuilder::enqueue_layout_styles_scripts()
+#5 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): FLBuilder::enqueue_all_layouts_styles_scripts()
+#6 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\script-loader.php(2156): do_action()
+#9 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(307): wp_enqueue_scripts()
+#10 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#11 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\plugin.php(476): WP_Hook->do_action()
+#12 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(3042): do_action()
+#13 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\header.php(26): wp_head()
+#14 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(770): require_once('...')
+#15 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template.php(716): load_template()
+#16 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\general-template.php(48): locate_template()
+#17 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\themes\astra\page.php(20): get_header()
+#18 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-includes\template-loader.php(106): include('...')
+#19 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-blog-header.php(19): require_once('...')
+#20 C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\index.php(17): require('...')
+#21 {main}
+  thrown in C:\Bitnami\wordpress-6.0.1-0\apache2\htdocs\project\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php on line 254
+

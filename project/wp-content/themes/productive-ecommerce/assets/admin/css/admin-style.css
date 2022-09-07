@@ -1,0 +1,50 @@
+/**
+* Admin Styles css
+*/
+
+:root {
+	
+/* colours def */
+--cccccc: #cccccc;
+--dddddd: #dddddd;
+--eeeeee: #eeeeee;
+--white: #ffffff;
+--black: #000000;
+--blacked: #000000;
+--blue: #2172ea;
+--orange: #dd4d06;
+--green: #30b309;
+--red: #c4130b;
+--warning: #ff9966;
+--warning-v2: #ffcc00;
+--success: #d7e7ea;
+--lightgreyed: #cdcdcd;
+--lightergreyed: #f9f9f9;
+--greened: #30b309;
+--darkgreened: #030;
+--specialblueed: #003E6A;
+--inhouseblueed: #0d6b99;
+--blueed: #06c;
+--darkblueed: #03c;
+--browned: #600;
+--darkbrowned: #300;
+--greyed: #666;
+--darkgreyed: #36454F; /* Charcoal charcoal */
+--whited: #ffffff;
+}
+
+.get-pro-button {
+	padding: 10px 15px;
+	margin-top: 3px;
+	border-radius: 5px;
+	color: var(--white);
+	font-weight: 600;
+	font-style: normal;
+	display: block;
+	background-color: var(--blueed);
+}
+.get-pro-button:hover {
+	color: var(--white);
+	background-color: var(--browned);
+	text-decoration: none;
+}
